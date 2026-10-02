@@ -14,5 +14,17 @@ function resta(){
     resultado = n1-n2;
 
     document.getElementById("resultado").innerText = resultado;
+}
+
+function division(){
+   let n1 = parseFloat(document.getElementById("numero1").value);
+   let n2 = parseFloat(document.getElementById("numero2").value);
+
+   if (n2 == 0){
+    document.getElementById("resultado").innerText = "No es posible dividir entre cero";
+   }else{
+    resultado = n1/n2;
+    document.getElementById("resultado").innerText = resultado;
+   }
 
 }
