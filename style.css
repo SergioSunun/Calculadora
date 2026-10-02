@@ -1,3 +1,22 @@
 body{
     background-color: rgb(52, 146, 146);
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 100vh; 
+}
+
+.contenedor {
+    background-color: azure;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    height: 275px;
+}
+
+button{
+    background-color: rgb(13, 59, 82);
+    color:white;
+    width: 30px;
+    border-radius: 5px;
 }
